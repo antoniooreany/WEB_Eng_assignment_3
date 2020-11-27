@@ -1,0 +1,8 @@
+//student all students
+??? the second student
+//phone[@type="business"]
+//student[@age=23]/last_name.text()
+//student[@age>20]/first_name.text()
+//student/last_name.text()
+
+

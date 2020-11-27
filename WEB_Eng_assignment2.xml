@@ -1,0 +1,31 @@
+<!ELEMENT people student*>
+<!ELEMENT student (last_name, first_name, postal_code, email, phone*>
+
+<!ATTLIST student phone(type CDATA #REQUIRED)>
+
+<people>
+    <student>
+        <last_name></last_name>
+        <first_name></first_name>
+        <postal_code></postal_code>
+        <email></email>
+        <phone type="private">867879</phone>
+        <phone type="business">79780908</phone>
+    </student>
+    <student>
+        <last_name></last_name>
+        <first_name></first_name>
+        <postal_code></postal_code>
+        <email></email>
+        <phone type="private">545678</phone>
+        <phone type="business">34567</phone>
+    </student>
+    <student>
+        <last_name></last_name>
+        <first_name></first_name>
+        <postal_code></postal_code>
+        <email></email>
+        <phone type="private">45678</phone>
+        <phone type="business">345678</phone>
+    </student>
+</people>

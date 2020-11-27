@@ -1,0 +1,29 @@
+<!--<list:studentList xmlns:list="urn:corp:list" xmlns:emp="urn:corp:emp" xmlns:sec="urn:corp:sec">-->
+<hs:student xmlns:hs="http://www.hs-ulm.de/ns/student">
+
+    <people>
+        <student age="23">
+            <last_name></last_name>
+            <first_name></first_name>
+            <postal_code></postal_code>
+            <email></email>
+            <phone type="private">867879</phone>
+            <phone type="business">79780908</phone>
+        </student>
+        <student age="33">
+            <last_name></last_name>
+            <first_name></first_name>
+            <postal_code></postal_code>
+            <email></email>
+            <phone type="private">545678</phone>
+            <phone type="business">34567</phone>
+        </student>
+        <student age="34">
+            <last_name></last_name>
+            <first_name></first_name>
+            <postal_code></postal_code>
+            <email></email>
+            <phone type="private">45678</phone>
+            <phone type="business">345678</phone>
+        </student>
+    </people>

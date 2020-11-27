@@ -1,0 +1,4 @@
+<!ELEMENT people student*>
+<!ELEMENT student (last_name, first_name, postal_code, email, phone*>
+
+<!ATTLIST student phone(type CDATA #REQUIRED)>
