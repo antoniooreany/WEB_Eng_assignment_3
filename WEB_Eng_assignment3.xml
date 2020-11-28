@@ -1,29 +1,29 @@
 <!--<list:studentList xmlns:list="urn:corp:list" xmlns:emp="urn:corp:emp" xmlns:sec="urn:corp:sec">-->
 <hs:student xmlns:hs="http://www.hs-ulm.de/ns/student">
-
     <people>
         <student age="23">
-            <last_name></last_name>
-            <first_name></first_name>
-            <postal_code></postal_code>
-            <email></email>
+            <last_name>Surname1</last_name>
+            <first_name>Name1</first_name>
+            <postal_code>00001</postal_code>
+            <email>example1@gmail.com</email>
             <phone type="private">867879</phone>
             <phone type="business">79780908</phone>
         </student>
         <student age="33">
-            <last_name></last_name>
-            <first_name></first_name>
-            <postal_code></postal_code>
-            <email></email>
+            <last_name>Surname2</last_name>
+            <first_name>Name2</first_name>
+            <postal_code>00002</postal_code>
+            <email>example2@gmail.com</email>
             <phone type="private">545678</phone>
             <phone type="business">34567</phone>
         </student>
         <student age="34">
-            <last_name></last_name>
-            <first_name></first_name>
-            <postal_code></postal_code>
-            <email></email>
+            <last_name>Surname3</last_name>
+            <first_name>Name3</first_name>
+            <postal_code>00003</postal_code>
+            <email>example3@gmail.com</email>
             <phone type="private">45678</phone>
             <phone type="business">345678</phone>
         </student>
     </people>
+</hs:student>

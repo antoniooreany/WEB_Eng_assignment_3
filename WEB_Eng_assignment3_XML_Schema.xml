@@ -1,93 +1,48 @@
-<!--<?xml version="1.0" encoding="utf-8" ?>-->
-<!--<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">-->
-<!--    <xs:annotation>-->
-<!--        <xs:documentation xml:lang="en">-->
-<!--            Simple xml schema example for web engineering. Here-->
-<!--            we have a simple xml with just one name.-->
-<!--        </xs:documentation>-->
-<!--        <xs:appinfo>-->
-<!--            <help-text>Please provide the complete name</help-text>-->
-<!--        </xs:appinfo>-->
-<!--    </xs:annotation>-->
-<!--    <xs:elementname="name" type="xs:string"/>-->
-<!--</xs:schema>-->
-
-
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-    <xs:element name="name">
+    <xs:element name="people">
         <xs:complexType>
-            <xs:simpleContent>
-                <xs:extension base="xs:string">
-                    <xs:attributename="language" type="xs:language"/>
-                </xs:extension>
-            </xs:simpleContent>
+            <xs:sequence>
+                <xs:element name="student">
+                    <xs:attribute name="age">
+                    <xs:complexType>
+                        <xs:element name="last_name">
+                            <xs:simpleContent>
+                                <xs:extension base="xs:string"/>
+                                <xs:pattern value="/^([^0-9]*)$/"/>
+                            </xs:simpleContent>
+                        </xs:element>
+                        <xs:element name="first_name">
+                            <xs:simpleContent>
+                                <xs:extension base="xs:string"/>
+                                <xs:pattern value="/^([^0-9]*)$/"/>
+                            </xs:simpleContent>
+                        </xs:element>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
         </xs:complexType>
-    </xs:element>
-</xs:schema>
-
-        <?xml version="1.0" encoding="utf-8" ?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-<xs:element name="people">
-<xs:complexType>
-<xs:sequence>
-<xs:element name="student">
-<xs:complexType>
-    <xs:element name="student">
-    <xs:attribute ref="age:integer"/>
-    <xs:element name="last_name">
-    <xs:simpleContent>
-    <xs:extension base="xs:string">
-    <xs:element name="first_name">
-    <xs:simpleContent>
-        <xs:extension base="xs:string">
         <xs:element name="postal_code">
-        <xs:simpleContent>
-            <xs:extension base="xs:^[0-9][0-9]{4}$"/>
-        </xs:simpleContent>
-
-         <xs:element name="email">
             <xs:simpleContent>
-                <xs:sequence>
-                    <xs:extension base="xs:string"/>
-                </xs:sequence>
+                <xs:extension base="xs:string"/>
+                <xs:pattern value="/^[0-9][0-9]{4}$"/>
             </xs:simpleContent>
         </xs:element>
-    </xs:simpleContent>
-    <xs:element name="phone">
-        <xs:attribute ref="type:string">
+        <xs:element name="email">
             <xs:simpleContent>
-                <xs:extension base="xs:/d">
-                </xs:extension>
+                <xs:extension base="xs:string"/>
             </xs:simpleContent>
-        </xs:attribute>
+        </xs:element>
+        <xs:sequence>
+            <xs:element name="phone">
+                <xs:attribute name="type">
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string"/>
+                        <xs:pattern value="xs:/d"/>
+                    </xs:simpleContent>
+                </xs:attribute>
+            </xs:element>
+        </xs:sequence>
     </xs:element>
-
-    <xs:attributename="language" type="xs:language"/>
-</xs:complexType>
 </xs:schema>
 
-        <!--        <?xml version="1.0" encoding="utf-8" ?>-->
-        <!--<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://namespace.hs-ulm.de/myNameSpace"-->
-        <!--           xmlns:adr="http://namespace.hs-ulm.de/myNameSpace">-->
-        <!--<xs:elementname="address">-->
-        <!--<xs:complexType>-->
-        <!--    <xs:sequence>-->
-        <!--        <xs:elementname="name">-->
-        <!--        <xs:complexType>-->
-        <!--            <xs:sequence>-->
-        <!--                <xs:elementname="firstname" type="adr:hsaddress"/>-->
-        <!--                <xs:elementname="surname" type="adr:hsaddress"/>-->
-        <!--            </xs:sequence>-->
-        <!--        </xs:complexType>-->
-        <!--    </xs:element>-->
-        <!--</xs:sequence>-->
-        <!--<xs:attribute ref="adr:nationality"/>-->
-        <!--</xs:complexType>-->
-        <!--        </xs:element>-->
-        <!--<xs:complexTypename="hsaddress">-->
-        <!--<xs:simpleContent>-->
-        <!--<xs:extensionbase="xs:string"/>-->
-        <!--</xs:simpleContent>-->
-        <!--        </xs:complexType>-->
-        <!--        </xs:schema>-->

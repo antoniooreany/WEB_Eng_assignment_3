@@ -1,0 +1,60 @@
+{
+    "hs:student": {
+        "xmlns:hs": "http://www.hs-ulm.de/ns/student",
+        "people": {
+            "student": [
+                {
+                    "age": "23",
+                    "last_name": "Surname1",
+                    "first_name": "Name1",
+                    "postal_code": "00001",
+                    "email": "example1@gmail.com",
+                    "phone": [
+                        {
+                            "type": "private",
+                            "#text": "867879"
+                        },
+                        {
+                            "type": "business",
+                            "#text": "79780908"
+                        }
+                    ]
+                },
+                {
+                    "age": "33",
+                    "last_name": "Surname2",
+                    "first_name": "Name2",
+                    "postal_code": "00002",
+                    "email": "example2@gmail.com",
+                    "phone": [
+                        {
+                            "type": "private",
+                            "#text": "545678"
+                        },
+                        {
+                            "type": "business",
+                            "#text": "34567"
+                        }
+                    ]
+                },
+                {
+                    "age": "34",
+                    "last_name": "Surname3",
+                    "first_name": "Name3",
+                    "postal_code": "00003",
+                    "email": "example3@gmail.com",
+                    "phone": [
+                        {
+                            "type": "private",
+                            "#text": "45678"
+                        },
+                        {
+                            "type": "business",
+                            "#text": "345678"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
