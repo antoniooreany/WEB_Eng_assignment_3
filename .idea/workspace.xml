@@ -20,10 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="daee0c50-d9b7-4e27-9451-7cbd7c38f900" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/WEB_Eng_assignment3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/svg/3_LoveSVG-Pets-32.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/svg/Firefox_Logo,_2017.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/svg/Reprap_logo_simple.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/svg/SAMPLE PROJECT.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/svg/iconfinder_36-simple_4202069.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/svg/pedros_vivid_sombreros.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/svg/trysvg_linear3.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB_Eng_assignment3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_Eng_assignment3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB_Eng_assignment3_XML_Schema.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_Eng_assignment3_XML_Schema.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_Eng_assignment3_XSLT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_Eng_assignment3_XSLT.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +48,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/svg" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/svg" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/svg" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -61,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606499048863</updated>
       <workItem from="1606499049935" duration="310000" />
-      <workItem from="1606499645727" duration="5713000" />
+      <workItem from="1606499645727" duration="10563000" />
     </task>
     <servers />
   </component>
@@ -81,6 +90,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606592980851">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1606592980851" />
+    <state x="414" y="270" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606670443373">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="414" y="270" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1606670443373" />
     <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1606571992995">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

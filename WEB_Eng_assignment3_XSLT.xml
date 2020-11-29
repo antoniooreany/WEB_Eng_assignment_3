@@ -3,7 +3,7 @@
     <xsl:template match="student">
         <Students>
             <name>
-                <xsl:value-of select="last_name"/>  <!--TODO how to use cycle here?-->
+                <xsl:value-of select="last_name"/>  <!--TODO how to make cycle here?-->
             </name>
         </Students>
     </xsl:template>
